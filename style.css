@@ -8,18 +8,23 @@ body{
 }
 nav{
     display: flex;
-  
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
 }
 .nav-title{
     font-weight: 800;
     color: rgb(30, 30, 30);
+    font-size: 45px;
 }
 nav > ul{
     display: flex;
+    align-items: center;
 }
 nav li{
     list-style: none;
     margin-right: 50px;
+    
 }
 li a{
     text-decoration: none;
@@ -29,4 +34,22 @@ li a{
     background-color: #FD6E0A;
     border: none;
     border-radius: 2px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    padding: 15px 18px;
+}
+header{
+    background-color: rgb(255, 248, 243);
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display:flex ;
+    align-items: center;
+}
+.profile-pic{
+    width: 500px;
+}
+.banner-content{
+    align-items: center;
 }
