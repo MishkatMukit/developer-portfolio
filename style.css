@@ -83,6 +83,9 @@ header{
     font-size: 35px;
     font-weight: 700;
     text-align: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+
 }
 .section-description{
     color: rgb(30, 30, 30);
@@ -113,4 +116,32 @@ main{
     padding: 30px;
     box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.255);
     border-radius: 5px;
+    width: 300px;
+
+}
+.resume-column-title{
+    color: rgb(71, 71, 71);
+    margin-bottom: 30px;
+}
+.resume-item-title{
+    color: rgb(71, 71, 71);
+    margin-bottom: 5px;
+}
+.resume-item-institute{
+    color: rgb(117, 117, 117);
+    margin-top: 0px;
+}
+.resume-item-description{
+    color: rgb(117, 117, 117);
+}
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.resume-container hr{
+    margin-right: 50px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 20px;
 }
